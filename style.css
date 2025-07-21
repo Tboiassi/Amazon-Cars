@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont;
+}
+body {
+    background-color: #eee;
+}
+/* Header Menu */
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+/* Top navigation */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .topNav {
+    display: flex;
+}
+/* for all button in general */
+button {
+    cursor: pointer;
+}
+button:hover {
+    background-color: #848080;
+    color: #000;
+    transition: 0.2s all ease-in-out;
+}
+nav li a {
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    color: #000000;
+}
+.Intro {
+    border: none;
+    padding: 12px;
+    border-radius: 7px;
+    width: 120px;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #000;
+    color: #f2f2f2;
+}
+
+/* Main Header */
+h1 {
+    margin-top: 2.5cm;
+}
+.subText {
+    margin-top: 1cm;
+}
+/* The login and sign up button */
+.Siup, .loin {
+    border: none;
+    padding: 12px;
+    border-radius: 7px;
+    width: 120px;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #000;
+    color: #f2f2f2;
+    margin-top: 30px;
+}
+
+/* Main Body of text */
+.main {
+    text-align: center;
+}
+/* article section */
+article {
+    display: flex;
+    align-items: center;
+    margin: 50px 200px;
+    border-bottom: 4px solid #000000;
+    border-left: 4px solid #000000;
+    border-radius: 10px;
+    width: 850px;
+    justify-content: space-between;
+}
+.bmw {
+    border: none;
+    padding: 12px;
+    border-radius: 7px;
+    width: 120px;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #000;
+    color: #f2f2f2;
+    margin-top: 20px;
+}
+aside {
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid #000000;
+    border-right: 4px solid #000000;
+    border-radius: 10px;
+    margin: 50px 200px;
+    width: 850px;
+    justify-content: space-between;
+}
+.upload {
+    border: none;
+    padding: 12px;
+    border-radius: 7px;
+    width: 120px;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #000;
+    color: #f2f2f2;
+    margin-top: 20px;
+}
+
+/* Mid page for features and sections*/
+section {
+    background-color: lightgray;
+}
+.mid {
+    text-align: center;
+}
+.midterms, h2 {
+    margin-top: 0.5cm;
+}
+.cateSection {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.cate {
+    border: none;
+    border-radius: 7px;
+    padding: 12px;
+    margin: 12px 12px;
+    text-align: center;
+    background-color: #eee;
+}
+
+/* Footer section */
+footer {
+    text-align: center;
+}
+.foContent {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 12px;
+}
+.Con {
+    border: none;
+    background-color: lightgray;
+    border-radius: 7px;
+    padding: 12px;
+    margin: 20px 32px;
+    text-align: center;
+    width: 320px;
+}
